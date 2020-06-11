@@ -2,7 +2,7 @@
 import numpy as np
 
 
-def game_core_v3(number):
+def binary_search(number):
     '''Применим бинарный поиск для поиска загаданного числа.
         Обозначим правую границу поиска переменной right,
         левую границу – left. Функция принимает загаданное
@@ -42,4 +42,4 @@ def score_game(game_core):
 
 
 if __name__ == "__main__":
-    score_game(game_core_v3)
+    score_game(binary_search)

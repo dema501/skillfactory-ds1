@@ -14,5 +14,5 @@ pip install -r requirements.txt
 Игра за зускается с помощью команды:
 
 ```
-python src/game1.p
+python src/game1.py
 ```
